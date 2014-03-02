@@ -24,9 +24,7 @@ public class FuelMix implements Serializable {
 		stringBuf.append("\"totalMW\": " + this.totalMW + ", ");
 		stringBuf.append("\"fuelTypes\": [");
 		for (FuelType fuelType : fuelTypes) {
-			stringBuf.append("{");
-			stringBuf.append(fuelType.toString());
-			stringBuf.append("},");
+			stringBuf.append("{" + fuelType.toString() + "}, ");
 		}
 		stringBuf.append("] }");
 		return stringBuf.toString();
