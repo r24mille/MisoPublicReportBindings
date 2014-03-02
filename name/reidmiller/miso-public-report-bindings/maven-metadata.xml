@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>name.reidmiller</groupId>
+  <artifactId>miso-public-report-bindings</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140302181416</lastUpdated>
+  </versioning>
+</metadata>
